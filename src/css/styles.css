@@ -1,18 +1,94 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+.body {
+  background-color: rgb(255, 217, 247);
+  overflow-y: hidden;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.video {
+  visibility: hidden;
+  display: none;
+}
+.video.visible {
+  visibility: visible;
+  display: block;
+  margin: 0 auto;
+}
+
+.video2 {
+  visibility: hidden;
+  display: none;
+}
+.video2.visible {
+  visibility: visible;
+  display: block;
+  margin: 0 auto;
+}
+
+.zag {
+  display: flex;
+  color: black;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.button-true {
+  display: flex;
+  color: black;
+  background-color: rgb(111, 233, 111);
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.button-true.sosyjopy {
+  display: none;
+  visibility: hidden;
+}
+.button-false {
+  display: flex;
+  color: black;
+  background-color: rgb(213, 14, 71);
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.button-false.sosyhui {
+  display: none;
+  visibility: hidden;
+}
+.button-reset {
+  display: none;
+  color: black;
+  background-color: rgb(215, 224, 122);
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+.button-reset.true {
+  display: flex;
+  visibility: visible;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+}

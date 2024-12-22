@@ -2,22 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>lovetest</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+  <body class="body">
+    <h1 class="zag">Любит ли Дима Настю?</h1>
+    <div class="cont">
+      <button type="button" class="button-reset">Рестарт</button>
+      <button type="button" class="button-true">Да</button>
+      <button type="button" class="button-false">Нет</button>
+    </div>
+    <video
+      class="video"
+      width="800px"
+      height="100%"
+      src="./video/ssstik.io_@leminhthanh14122012_1734828558253.mp4"
+    ></video>
+    <video
+      class="video2"
+      width="650px"
+      height="100%"
+      src="./video/ssstik.io_@alvareziks_1734826620256.mp4"
+    ></video>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
